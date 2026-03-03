@@ -1,0 +1,59 @@
+/* Sidebar.module.css */
+.sidebar {
+  width: 240px;
+  background: #fafafa;
+  border-right: 1px solid #ddd;
+  transition: margin-left 0.3s ease, opacity 0.3s ease;
+  height: 100%;
+  position: relative;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  overflow: hidden;
+  padding: 1rem;
+}
+
+.open {
+  margin-left: 0;
+  opacity: 1;
+}
+
+.closed {
+  margin-left: -250px;
+  opacity: 0;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.7rem;
+  font-weight: 500;
+  color: #555;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.item:hover {
+  background: #e0f7e7;
+  border-radius: 5px;
+  padding-left: 0.3rem;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
