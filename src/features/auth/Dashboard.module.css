@@ -1,0 +1,46 @@
+.container {
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.logoutButton {
+  padding: 8px 15px;
+  background-color: #1B8C3E;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.logoutButton:hover {
+  background-color: #157a33;
+}
+
+.projectsTitle {
+  margin-top: 30px;
+  font-size: 22px;
+}
+
+.projectList {
+  list-style: none;
+  padding: 0;
+}
+
+.projectItem {
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 8px;
+  display: inline-block;
+}

@@ -1,6 +1,11 @@
 import styles from './Sidebar.module.css';
 
-interface Project { id: string; name: string; color: string; }
+interface Project {
+  id: number | string;
+  name: string;
+  color?: string;
+}
+
 interface SidebarProps { projects: Project[]; isOpen: boolean; }
 
 export default function Sidebar({ projects, isOpen }: SidebarProps) {

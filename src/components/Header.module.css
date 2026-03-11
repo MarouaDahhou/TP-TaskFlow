@@ -2,36 +2,52 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 60px;
-  background: linear-gradient(90deg, #1B8C3E, #34C759);
+  padding: 1rem 2rem;
+  background-color: #1B8C3E;
   color: white;
-  padding: 0 1.5rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
-  font-family: 'Inter', sans-serif;
 }
 
-.menuBtn {
-  background: transparent;
-  border: none;
-  font-size: 1.5rem;
-  cursor: pointer;
-  transition: transform 0.2s;
-}
-
-.menuBtn:hover {
-  transform: rotate(90deg);
+.left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .logo {
+  font-size: 1.2rem;
   font-weight: bold;
-  font-size: 1.5rem;
 }
 
-.avatar {
-  background: #ffffff33;
+.menuBtn {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.userName {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.logoutBtn {
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.3);
+  color: white;
   padding: 0.4rem 0.8rem;
-  border-radius: 50%;
-  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background 0.2s;
+}
+
+.logoutBtn:hover {
+  background: rgba(255,255,255,0.25);
 }
