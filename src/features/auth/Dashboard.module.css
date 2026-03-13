@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com');
+
 .container {
   padding: 40px;
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .title {
